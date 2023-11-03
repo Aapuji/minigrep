@@ -11,6 +11,6 @@ fn main() {
     
     if let Err(e) = minigrep::run(config) {
         eprintln!("Application Error: {e}");
-        process::exit(0);
+        process::exit(1);
     }
 }
